@@ -35,6 +35,8 @@ main{
 font-family: 'Roboto', sans-serif;
     color: #212121;
     background-color: white;
+    letter-spacing: 0,03em;
+    font-size: 14px;
 }
 
 /*links*/
@@ -79,12 +81,12 @@ color: #2196F3;}
     margin-left: auto;
     padding: 32px;
 }
+.tel{color: #757575;}
 .mail {
     margin-right: 50px;
+color: #757575
 }
-.contacts li a{
-    color: #757575;
-}
+
 /*Block 1*/
 .logo-img {
     width: 100%;
@@ -362,4 +364,7 @@ a:hover,a:focus {
     cursor: pointer;
 }
 .links ul li a:hover,.links ul li a:focus {
-    color: #2196F3;
+    color: #2196F3;}
+    .contacts li a .tel:hover{
+        color: #2196F3;
+    }
