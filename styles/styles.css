@@ -16,7 +16,6 @@ header {
 header .logo {
     text-decoration: none;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -32,8 +31,11 @@ header .logo span {
 .header a {
     text-decoration: none;
 }
-
-
+main{
+font-family: 'Roboto', sans-serif;
+    color: #212121;
+    background-color: white;
+}
 
 /*links*/
 .links {
@@ -55,19 +57,21 @@ header .logo span {
 }
 .links li a {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #212121;
+    color:black; ;
+    /*--links-text-color: black;
+    color: var(--links-text-color);*/
 }
 .links li a span{
 margin: 0;
 color: #2196F3;}
 /*contacts*/
 .contacts {
+    font-family: 'Roboto';
     list-style: none;
     margin-top: 0;
     padding-left: 0;
@@ -75,18 +79,16 @@ color: #2196F3;}
     margin-left: auto;
     padding: 32px;
 }
-.contacts .mail {
+.mail {
     margin-right: 50px;
-    color: #2196F3;
 }
-.tel{
+.contacts li a{
     color: #757575;
 }
 /*Block 1*/
 .logo-img {
     width: 100%;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -102,7 +104,7 @@ color: #2196F3;}
     max-width: 695px;
     margin: 0 auto;
     margin-bottom: 30px;
-    font-family: 'Roboto';
+    font-family: '';
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -128,6 +130,7 @@ color: #2196F3;}
     display: none;
 }
 .benefits ul {
+    font-family: 'Roboto';
     max-width: 1170px;
     margin: 0 auto;
     display: flex;
@@ -149,7 +152,6 @@ color: #2196F3;}
     color: #212121;
 }
 .benefits p {
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -226,7 +228,6 @@ background: #F5F4FA;
 }
 .team  p {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -243,7 +244,6 @@ footer{
     display: flex;
     color: #2196F3;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -273,8 +273,9 @@ footer ul li {
     margin-top: 9px;
 }
 address{
-        max-width: 1170px;
-        margin: 0 auto;
+    max-width: 1170px;
+    margin: 0 auto;
+    font-family: 'Roboto';
 }
 
 /*portfolio*/
@@ -293,7 +294,6 @@ margin: 0;
 .buttons li button{
     padding: 6px 22px;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -314,16 +314,13 @@ margin: 0;
 /*images description*/
 .images p{
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
     color: #757575;
 }
-.images h3{
+.images h2{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -354,7 +351,7 @@ hover test
 .links ul li a:hover {
     background-color: #666;
     color: white;*/
-a:hover {
+a:hover,a:focus {
     color: #2196F3;
 }
 .btn:hover,.btn:focus{
@@ -366,5 +363,3 @@ a:hover {
 }
 .links ul li a:hover,.links ul li a:focus {
     color: #2196F3;
-}
-
