@@ -19,7 +19,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--black-text);
     background-color: var(--white);
-    letter-spacing: 0,03em;
     font-size: 14px;
 }
 
@@ -43,7 +42,7 @@ header .logo {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2em;
+    line-height: 1.2;
     color: var(--blue);
 }
 header .logo span {
@@ -78,8 +77,8 @@ header .logo span {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14em;
-    letter-spacing: 0.02em;
+    line-height: 1.14;
+    letter-spacing: 0.02;
     text-decoration: none;
     color: var(--black-text);
 
@@ -115,7 +114,7 @@ header .logo span {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19em;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--blue);
 }
@@ -132,7 +131,7 @@ header .logo span {
     margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36em;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -172,14 +171,14 @@ header .logo span {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14em;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--black-text);
 }
 .benefits p {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--gray-text);
     margin-bottom: 0;
@@ -192,7 +191,7 @@ header .logo span {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.17em;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--black-text);
@@ -221,7 +220,7 @@ header .logo span {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.17em;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--black-text);
@@ -249,7 +248,7 @@ header .logo span {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.2em;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--black-text);
@@ -258,7 +257,7 @@ header .logo span {
 .team  p {
     font-family: 'Roboto';
     font-size: 16px;
-    line-height: 1.2em;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--gray-text);
@@ -276,7 +275,7 @@ footer{
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2em;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     max-width:145px;
     padding-top: 60px;
@@ -328,7 +327,7 @@ margin: 0;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.6em;
+    line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
     background: var(--bg-color2)
@@ -347,7 +346,7 @@ margin: 0;
 .images p{
     font-family: 'Roboto';
     font-size: 16px;
-    line-height: 1.9em;
+    line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--gray-text);
 }
@@ -355,7 +354,7 @@ margin: 0;
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 18px;
-    line-height: 2em;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--black-text);
     margin:20px 24px 4px 24px;
